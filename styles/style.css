@@ -1,0 +1,84 @@
+.my-element .heading-1 {
+    display: inline-block;
+  }
+  .my-element{
+    text-align: center;
+  }
+  
+  .my-element .heading-5,
+  .my-element .heading-2,
+  .my-element .heading-3,
+  .my-element .heading-4 {
+    display: none;
+  }
+  body{
+    background-color: skyblue;
+  }
+
+  @media only screen and (max-width: 1440px) {
+    .my-element .heading-5,
+    .my-element .heading-3,
+    .my-element .heading-4 {
+    display: none;
+  }
+    
+    
+    .my-element .heading-2 {
+      display: inline-block;
+    }
+    body{
+        background-color: rgb(2, 59, 7);
+      }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .my-element .heading-2,
+    .my-element .heading-4,
+    .my-element .heading-5 {
+    display: none;
+  }
+    
+    
+    .my-element .heading-3 {
+      display: inline-block;
+    }
+    body{
+        background-color: rgb(95, 35, 35);
+      }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .my-element .heading-2,
+    .my-element .heading-3,
+    .my-element .heading-5 {
+    display: none;
+  }
+    
+    
+    .my-element .heading-4 {
+      display: inline-block;
+    }
+    body{
+        background-color: skyblue;
+      }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .my-element .heading-3,
+    .my-element .heading-4,
+    .my-element .heading-5 {
+    display: none;
+  }
+    
+    
+    .my-element .heading-5 {
+      display: inline-block;
+    }
+    body{
+        background-color: rgb(241, 78, 78);
+      }
+  }
+  
+  
+  
+  
